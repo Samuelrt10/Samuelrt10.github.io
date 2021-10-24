@@ -1,0 +1,106 @@
+header{
+    background-color: black;
+    margin-bottom: 1cm;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(8, 250px);
+    grid-template-rows: repeat(8, 30px)
+}    
+
+.logo{
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+h1{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    color:rgb(255, 255, 255);
+    font-family: Caviar Dreams;
+    font-size: 50px;
+}
+
+nav{
+    grid-row-start: 2;
+    grid-column-start: 5;
+    grid-column-end: 8;
+}
+
+.nav{
+    width: 70px;
+    height: 30px;
+    background-color:black ;
+    color: white;
+    font-family: Caviar Dreams;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 50px auto;
+    display: inline-block;
+    border-right-color: white;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-width: 2px;
+    border-style: double;
+}
+
+.nav:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(5, 400px);
+    grid-template-rows:repeat(7, 200px) ;
+    margin-bottom: 0;
+}
+
+aside{
+
+    grid-column: 1;
+    grid-column-end: 2;
+    grid-row: 1;
+    grid-row-end: 8;
+    background-color: black;
+}
+
+.p{
+    color: white;
+    margin-left: 20px;
+    margin-right: 10px
+}
+
+.p1{
+    color: black;
+    margin-left: 20px;
+}
+
+main{
+    grid-column: 2;
+    grid-column-end: 5;
+    grid-row: 1;
+    grid-row-end: 7; 
+}
+
+main{font-size:20px; 
+    font-family: Arial
+}
+
+footer{
+    background-color: black;
+    height: 300px;
+    margin-top:0
+
+}
+
+
+
+
+
